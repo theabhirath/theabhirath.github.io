@@ -198,4 +198,4 @@ In the next article, I will be talking about function evaluation strategies, bef
 
 ---
 
-_Thanks for reading! I hope you’ve enjoyed reading this article. You can find me on_ [_Linkedin_](https://www.linkedin.com/in/theabhirathanand/)_,_ [_Twitter_](https://twitter.com/theabhirath) _and_ [_GitHub_](http://github.com/theabhirath).
+_Thanks for reading! I hope you’ve enjoyed reading this article._

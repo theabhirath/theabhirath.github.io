@@ -4,9 +4,7 @@ tags:
     - programming
 ---
 
-When learning to code for the first time, it can be overwhelming to see terms like **functional** or **object-oriented** be thrown around by more experienced programmers. In this series of articles, I wanted to give a brief overview of what these paradigms actually mean, and demonstrate some very small programs implementing some of these. These articles are not meant to be comprehensive in any fashion, although I do go over the most common paradigms and try to give you a sense of what they mean.
-
-In this article, I go over what a programming paradigm is and specifically dive into the **imperative programming paradigm**. Let’s dive right in!
+When learning to code for the first time, it can be overwhelming to see terms like **functional** or **object-oriented** be thrown around by more experienced programmers. In this article, I go over what a programming paradigm is and specifically dive into the **imperative programming paradigm**. Let’s dive right in!
 
 ---
 
@@ -48,19 +46,19 @@ int main(void){
   return 0;
 }
 ```
-<center><i>A simple C program to return the sum of two numbers via a procedure <code>add</code> that takes two arguments.</i></center>
-
-<br>
+A simple C program to return the sum of two numbers via a procedure `add` that takes two arguments.
+{: .notice--primary}
 
 The above program is an example of the implementation of the procedural paradigm. A procedure was used to add the two numbers, and the return value was assigned to a new variable. Each line of the program represents a change in the state of the program, as you will realise on careful reading.
 
 ## Object-Oriented Programming (OOP)
 
-The most popular programming paradigm in software engineering. It relies on **objects:** which are abstract, custom structures that contain both data **fields** (also referred to as **attributes** or **properties**)**,** for storing information, and **methods,** which are procedures that are specific to an object that can be used to modify or access it. In most commonly-used languages, this is associated with **classes,** which are blueprints for creating an _instance_ of an object.
+Object-oriented programming is the most popular programming paradigm in software engineering. It relies on **objects:** which are abstract, custom structures that contain both data **fields** (also referred to as **attributes** or **properties**)**,** for storing information, and **methods,** which are procedures that are specific to an object that can be used to modify or access it. In most commonly-used languages, this is associated with **classes,** which are blueprints for creating an _instance_ of an object.
 
-That seems very technical. So let’s deal with an example. A class is an example of an object such as a car. And instances are specific cars, like that old piece of junk that your family refuses to throw or the brand new Jeep the neighbour purchased.
+That seems very technical. So let’s deal with an example. A class is an example of an object such as a car. And instances are specific cars, like that old piece of junk that your family refuses to throw or the brand new Jeep your local politician likes to flaunt.
 
-> This is a very superficial example, obviously. Even in cars, there's passenger vehicles and sports vehicles; F1 cars, SUVs, sedans and hatchbacks are all cars and do in fact correspond to a "blueprint" for a car. So the more exact example would be of an abstract class named `Car` , which is subclassed by several other abstract classes like `FormulaOne`, `Sedan`, which are then further subclassed by concrete classes like `MercedesSClass` or `HondaCivic`, which finally have instances that people can purchase. And that's just a very simple example. There's obviously tons of more design choices that can be made along the way resulting in a very different hierarchy, but that's the gist of it.
+This is a very superficial example, obviously. Even in cars, there's passenger vehicles and sports vehicles; F1 cars, SUVs, sedans and hatchbacks are all cars and do in fact correspond to a "blueprint" for a car. So the more exact example would be of an abstract class named `Car` , which is subclassed by several other abstract classes like `FormulaOne`, `Sedan`, which are then further subclassed by concrete classes like `MercedesSClass` or `HondaCivic`, which finally have instances that people can purchase. And that's just a very simple example. There's obviously tons of more design choices that can be made along the way resulting in a very different hierarchy, but that's the gist of it. 
+{: .notice--info}
 
 The OOP paradigm has a lot of distinguishing features, but I'm gonna go through some of the widely used ones:
 
@@ -104,10 +102,8 @@ d = Dog()
 d.bark() # prints "dog barking"  
 d.speak() # prints "Animal Speaking"
 ```
-
-<center><i>An example of single inheritance in Python. The method speak was never explicitly defined for the class <code>Dog</code>, but it inherited it from the superclass <code>Animal</code>.</i></center>
-
-<br>
+An example of single inheritance in Python. The method speak was never explicitly defined for the class `Dog`, but it inherited it from the superclass `Animal`.
+{: .notice--primary}
 
 The implementation of inheritance varies across languages — some allow only for **single inheritance**, i.e. a class can have only one superclass. Others allow for limited multiple inheritance; and some, like Go, do not allow inheritance at all.
 
@@ -161,10 +157,8 @@ static void main(String[] args) {
     letsHear(new Dog());
 }
 ```
-
-<center><i>An example of both types of polymorphism in Java. Function overloading has been used with the function <code>talk</code>, while subtyping has been used with <code>letsHear</code>.</i></center>
-
-<br>
+An example of both types of polymorphism in Java. Function overloading has been used with the function `talk`, while subtyping has been used with `letsHear`.
+{: .notice--primary}
 
 The choice of which version of a method to call may be based either on a single object, or on a combination of objects. In most languages such as C++, Java and Python, the method is called based on a single object and is called **single dispatch.** For example, consider the code:
 
@@ -192,10 +186,6 @@ So what is the solution? _Open recursion_. The recursion here isn’t literal �
 
 # Conclusion
 
-If you’d made it this far, I’d like to thank you for continuing to read through till the end. It’s readers like you who inspire me to write. 
+If you’d made it this far, I’d like to thank you for continuing to read through till the end. It’s readers like you who inspire me to write!
 
-In the next article, I will be talking about function evaluation strategies, before we return to talk about declarative programming. Until next time!
-
----
-
-_Thanks for reading! I hope you’ve enjoyed reading this article._
+In the next article, I will be talking about function evaluation strategies. Until next time!

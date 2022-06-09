@@ -23,6 +23,9 @@ search: true
 repository: "theabhirath/theabhirath.github.io"
 logo: "/assets/images/aesthetic.png"
 
+minimal_mistakes_skin: "default"
+minimal_mistakes_skin_dark: "dark"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes

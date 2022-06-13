@@ -15,3 +15,5 @@ It's probably helpful to read my previous article on the [imperative programming
 ---
 
 # Declarative Programming
+
+While imperative programming revolves around specifying the exact way in which a program will execute, declarative programming is a paradigm that is based on expressing the logic for the computation required to be performed without describing its control flow. There are a lot of _almost_ equivalent definitions for declarative programming -- you will ofte

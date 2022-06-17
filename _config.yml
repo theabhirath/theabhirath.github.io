@@ -28,6 +28,9 @@ minimal_mistakes_skin_dark: "dark"
 
 # Build settings
 markdown: kramdown
+kramdown:
+    syntax_highlighter_opts:
+      disable: true
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title
@@ -96,8 +99,6 @@ defaults:
       show_date: true
       author_profile: true
       read_time: true
-      toc: true
-      toc_label: Table of Contents
       comments: true
       share: false
       related: true

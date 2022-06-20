@@ -24,7 +24,6 @@ repository: "theabhirath/theabhirath.github.io"
 logo: "/assets/images/aesthetic.png"
 
 minimal_mistakes_skin: "default"
-minimal_mistakes_skin_dark: "dark"
 
 # Build settings
 markdown: kramdown
@@ -101,6 +100,7 @@ defaults:
       read_time: true
       comments: true
       share: false
+      classes: wide
       related: true
   # _pages
   - scope:

@@ -118,7 +118,7 @@ comments:
     category_id          : "DIC_kwDOHbjPIM4CPaA5" # Shown during giscus setup at https://giscus.app
     discussion_term      : "title" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
-    theme                : "preferred_color_scheme" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    theme                : "light" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
 
 category_archive:
   type: liquid

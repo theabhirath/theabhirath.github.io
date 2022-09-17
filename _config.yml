@@ -16,7 +16,7 @@
 title: Abhirath Anand
 email: theabhirathanand@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  CS Sophomore at BITS Pilani. Interested in machine learning and deep learning research.
+  CS Junior at BITS Pilani. Interested in machine learning and deep learning research.
 twitter_username: theabhirath
 github_username: theabhirath
 search: true
@@ -64,7 +64,7 @@ plugins:
 author:
   name   : "Abhirath Anand"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "CS Sophomore at BITS Pilani. Interested in machine learning and deep learning research."
+  bio    : "CS Junior at BITS Pilani. Interested in machine learning and deep learning research."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
